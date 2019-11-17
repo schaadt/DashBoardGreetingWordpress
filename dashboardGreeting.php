@@ -40,7 +40,12 @@ class DashBoardGreeting {
                     $greeting = 'Good Morning <br><br>
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/O5APc0z49wg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
                 }
-                echo $greeting;wdwdwd
+                echo $greeting;
+
+                // OUTPUTTER EN RANDOM CAT FACT, fordi.
+                            $data = file_get_contents(esc_url('https://catfact.ninja/fact'));
+                            $cat = json_decode($data);
+                            echo "<style type='text/css'>#cat {margin: 0; color: blue; font-size: 16px;}</style><p id='cat'>Random Cat Fact:</p><p>$cat->fact</p>";
 
             }
     }
