@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+.kattekasse{
+    color: #eeeeee;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.katfacts{
+    color: #eeeeee;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.katText{
+    color: #ecf0f1;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0px;
+}
+
+
+#dashBoardGreeting{
+    background-color: #22a7f0;
+    border: 1px solid #fff;
+}
+
+#cat{
+    color: #e8ecf1;
+}
+
